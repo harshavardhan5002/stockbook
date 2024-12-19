@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Stock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="search-container">
+    <h2>Search Stock</h2>
+
+    <label for="filter">Filter:</label>
+    <select id="filter">
+      <option value="Storage Location">Storage Location</option>
+      <option value="Storage Bin">Storage Bin</option>
+      <option value="Material">Material</option>
+      <option value="Material Description">Material Description</option>
+      <option value="Basic material">Basic Material</option>
+      <option value="stock qty">Stock Quantity</option>
+    </select>
+
+    <label for="search-input">Search Term:</label>
+    <input type="text" id="search-input" placeholder="Enter search term">
+    <button id="search-btn">Search</button>
+
+
+
+    <div class="scroll-container">
+      <!-- 14 Shops -->
+      <div id="shop1" class="results-container" onclick="toggleResults('shop1')"><h3>Shop 1</h3><div class="shop-results"></div></div>
+      <div id="shop2" class="results-container" onclick="toggleResults('shop2')"><h3>Shop 2</h3><div class="shop-results"></div></div>
+      <div id="shop3" class="results-container" onclick="toggleResults('shop3')"><h3>Shop 3</h3><div class="shop-results"></div></div>
+      <div id="shop4" class="results-container" onclick="toggleResults('shop4')"><h3>Shop 4</h3><div class="shop-results"></div></div>
+      <div id="shop5" class="results-container" onclick="toggleResults('shop5')"><h3>Shop 5</h3><div class="shop-results"></div></div>
+      <div id="shop6" class="results-container" onclick="toggleResults('shop6')"><h3>Shop 6</h3><div class="shop-results"></div></div>
+      <div id="shop7" class="results-container" onclick="toggleResults('shop7')"><h3>Shop 7</h3><div class="shop-results"></div></div>
+      <div id="shop8" class="results-container" onclick="toggleResults('shop8')"><h3>Shop 8</h3><div class="shop-results"></div></div>
+      <div id="shop9" class="results-container" onclick="toggleResults('shop9')"><h3>Shop 9</h3><div class="shop-results"></div></div>
+      <div id="shop10" class="results-container" onclick="toggleResults('shop10')"><h3>Shop 10</h3><div class="shop-results"></div></div>
+      <div id="shop11" class="results-container" onclick="toggleResults('shop11')"><h3>Shop 11</h3><div class="shop-results"></div></div>
+      <div id="shop12" class="results-container" onclick="toggleResults('shop12')"><h3>Shop 12</h3><div class="shop-results"></div></div>
+      <div id="shop13" class="results-container" onclick="toggleResults('shop13')"><h3>Shop 13</h3><div class="shop-results"></div></div>
+      <div id="shop14" class="results-container" onclick="toggleResults('shop14')"><h3>Shop 14</h3><div class="shop-results"></div></div>
+      <!-- Repeat for shop3 to shop14 -->
+    </div>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>

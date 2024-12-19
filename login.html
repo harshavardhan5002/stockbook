@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <img src="logo.png" alt="Logo" class="logo">
+    <h2>P/T Maintenance Stock Book</h2>
+
+    <label for="eid">E-ID:</label>
+    <input type="text" id="eid" placeholder="Enter Employee ID">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="remember">
+      <label for="remember">Remember Me</label>
+    </div>
+
+    <button id="login-btn">Login</button>
+    <p id="login-error" class="error-msg"></p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
