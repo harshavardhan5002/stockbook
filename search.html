@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Search Stock</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <div class="search-container">
@@ -17,7 +17,7 @@
       <option value="Material">Item Code</option>
       <option value="Material Description">Material Description</option>
       <option value="Basic material">Specification</option>
-      <option value="stock qty">--Select--</option>
+      <option value="stock qty"> --Select-- </option>
     </select>
 
     <label for="search-input">Material Lookup :</label>
@@ -27,7 +27,6 @@
 
 
     <div class="scroll-container">
-      <!-- 14 Shops -->
       <div id="shop1" class="results-container" onclick="toggleResults('shop1')"><h3>T001 - PM_Press#1</h3><div class="shop-results"></div></div>
       <div id="shop2" class="results-container" onclick="toggleResults('shop2')"><h3>T002 - PM_Body#1</h3><div class="shop-results"></div></div>
       <div id="shop3" class="results-container" onclick="toggleResults('shop3')"><h3>T003 - PM_Body#2</h3><div class="shop-results"></div></div>
@@ -40,10 +39,9 @@
       <div id="shop10" class="results-container" onclick="toggleResults('shop10')"><h3>T013 - PM_Press#2</h3><div class="shop-results"></div></div>
       <div id="shop11" class="results-container" onclick="toggleResults('shop11')"><h3>T014 - PM_Engine#3</h3><div class="shop-results"></div></div>
       <div id="shop12" class="results-container" onclick="toggleResults('shop12')"><h3>T015 - PM_ASDoorShop</h3><div class="shop-results"></div></div>
-      <!-- Repeat for shop3 to shop14 -->
     </div>
   </div>
 
-  <script src="search.js"></script>
+  <script src="assets/search.js"></script>
 </body>
 </html>
