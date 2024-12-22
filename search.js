@@ -1,21 +1,20 @@
-const SHOP1_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP2_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP3_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP4_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP5_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP6_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP7_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP8_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP9_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP10_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP11_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP12_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
-const SHOP13_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSehqlHu71HGxD8a3k2YeDatKlkBc9YHdrZQ9Mn8Y2oibAbKl6kcnQfTa_9gSAuFA/pub?output=csv";
-const SHOP14_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTajhbk6BS35KpJ-DJGfcBE45S0vF9vPzuQOgUpWRvfb1y-a1NoJE6BPa8yUFKKUg/pub?output=csv";
+const SHOP1_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQusXdmGYQunaGbqqwfz440F6Xa2HrIACkTHPdIKu7BMKF6mHgAPf5xDmFAlVoptw/pub?output=csv";
+const SHOP2_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqtVJN3lKK1CICyW6Hf0QLicFJ_f9Ub_tYBEhKCMnH5XcfpnzdPiPxHrBnZhBp8Q/pub?output=csv";
+const SHOP3_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTx34Q4JxYYtjGmoHJIQ88iUaDZpNBulDVMoKrw9ANLyj7DK3RCou3RlpxSg7gJog/pub?output=csv";
+const SHOP4_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSgPsoj-jXIrME6ACJ64-GxFqD-psIF-p5NCYQiqVHSuhs8LpS0IOJLHBxLnUaAeQ/pub?output=csv";
+const SHOP5_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT0wDcJO43PbJxpcV6JXbGWyLXOfJeWmL_4p048f0QgLnpulX4yqB9Fq_VEkrdc6g/pub?output=csv";
+const SHOP6_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSjGE9Xd_2D6D5Z2L8PifzIdNtOnKCv8v0JvBliN6JuAGeIsoHBYxVykzLwnT8YPw/pub?output=csv";
+const SHOP7_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyiVCUiRPK7P31ykkcDMFhKuk3qSODdtncmcf6SMb03TN23BnglQXUxpW9EEMPjQ/pub?output=csv";
+const SHOP8_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRXCmGoHRuAzLBebTdgRs2qwvL6d7UQWFCVfh62qZm5C0bRum539MMp1_6uJ2aaJw/pub?output=csv";
+const SHOP9_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTiCwVJvPeE3o1Q8fgKXkk0jVbsd4BInc32f_y7CSozMXUWiCDh1ql9mt7nJkv3rQ/pub?output=csv";
+const SHOP10_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1qsWLdhNa3-DYrzL7ukCqgWPpPw8_93bOwErGidH7lAz5EePY4i3a7AurM2hErg/pub?output=csv";
+const SHOP11_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSFlUmfs_s2d6bh9UFuHYZW8a5M_WRf-_YAAz9g6y-hvUxoyea6qjY6HLwmm47kqw/pub?output=csv";
+const SHOP12_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXtNAkczy2DSGABbfqiHPUFIOts6axyxAogty3ub6vE8vQtW0w5zY-UhsQHp341g/pub?output=csv";
+
 
 let shop1Data = [], shop2Data = [], shop3Data = [], shop4Data = [], shop5Data = [];
 let shop6Data = [], shop7Data = [], shop8Data = [], shop9Data = [], shop10Data = [];
-let shop11Data = [], shop12Data = [], shop13Data = [], shop14Data = [];
+let shop11Data = [], shop12Data = [];
 
 async function fetchShopData() {
   const fetchCSV = async (url) => {
@@ -36,9 +35,6 @@ async function fetchShopData() {
   shop10Data = await fetchCSV(SHOP10_CSV);
   shop11Data = await fetchCSV(SHOP11_CSV); // For example purpose
   shop12Data = await fetchCSV(SHOP12_CSV);
-  shop13Data = await fetchCSV(SHOP13_CSV); // For example purpose
-  shop14Data = await fetchCSV(SHOP14_CSV);
-
   // Repeat for shop5Data to shop14Data...
 }
 
@@ -57,7 +53,6 @@ document.getElementById("search-btn").addEventListener("click", () => {
     searchResults(shop4Data), searchResults(shop5Data), searchResults(shop6Data),
     searchResults(shop7Data), searchResults(shop8Data), searchResults(shop9Data),
     searchResults(shop10Data), searchResults(shop11Data), searchResults(shop12Data),
-    searchResults(shop13Data), searchResults(shop14Data)
   ];
 
   shopResults.forEach((results, i) => {
